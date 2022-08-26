@@ -14,7 +14,6 @@
     <name>Ping Identity SPA Guide :: Spring Boot, React</name>
 
     <properties>
-        <java.version>1.8</java.version>
         <yarnVersion>v1.18.0</yarnVersion>
         <nodeVersion>v12.18.3</nodeVersion>
     </properties>

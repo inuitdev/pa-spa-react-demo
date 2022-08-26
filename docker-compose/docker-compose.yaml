@@ -18,13 +18,6 @@ version: "2.4"
 #-------------------------------------------------------------------------------------
 
 services:
-  spa:
-    image: spa:master
-    ports:
-      9001:9001
-    networks:
-      - pingnet
-
   pingaccess:
     image: pingidentity/pingaccess:6.3.3-redhat_ubi8_8.5-rl11-HEAD-f815-x86_64
     environment:
